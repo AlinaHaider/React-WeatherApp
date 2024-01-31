@@ -1,0 +1,13 @@
+.weather {
+    color: rgb(255, 238, 238);
+    text-shadow: 1px 2px rgb(182, 175, 175);
+}
+
+.temp{
+    padding: 5px;
+    background-color: rgba(216, 209, 209, 0.295);
+    margin: 20px 60px;
+    border: none;
+    border-radius: 10px;
+    font-size: 50px;
+}
