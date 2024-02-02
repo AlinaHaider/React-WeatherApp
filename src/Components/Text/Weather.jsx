@@ -11,12 +11,12 @@ export const Weather = (weatherProps) => {
   return (
     <div className='weather'>
       <p></p>
-      <h1>Location</h1>
+      <h1>{weatherProps.location}, {weatherProps.country}</h1>
       <h2>{date()}</h2>
       <div className='temp'>
-        <h3>29</h3>
+        <h3>{weatherProps.temp}°C</h3>
       </div>
-      <h3>weather</h3>
+      <h3>{weatherProps.weather}</h3>
     </div>
   )
 }
